@@ -1,0 +1,19 @@
+# global.colmns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
+# source_sent_id = http://hdl.handle.net/11234/1-2515 UD_English/en-ud-train.conllu email-enronsent34_01-0024
+# text = A little birdie told me that you were checking into tickets for Seoul.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	3:det	_	1:VID
+2	little	little	ADJ	JJ	Degree=Pos	3	amod	3:amod	_	1
+3	birdie	birdie	NOUN	NN	number=Sing	4	nsubj	4:nsubj	_	1
+4	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_    *
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	4:iobj	_	*
+6	that	that	SCONJ	IN	_	9	mark	9:mark	_	*
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	9:nsubj	_	*
+8	were	be	AUX	VBD	Mood=Ind|tense=Past|VerbForm=Fin	9	aux	9:aux	_	*
+9	checking	check	VERB	VBG	|Tense=Pres|VerbForm=Part|	4	ccomp	4:ccomp	_	2:VPC.semi
+10	into	into	ADP	IN	_	11	case	11:case	_	2
+11	tickets	ticket	NOUN	NNS	Number=Plur	9	obl	9:obl	_	*
+12	for	for	ADP	IN	_	13	case	13:case	_	*
+13	Seoul	Seoul	PROPN	NNP	Number=Sing+	11	nmod	11:nmod	SpaceAfter=No	*
+14	.	.	PUNCT	.	_	4	punct	4:punct	_	*
+
+#text = How are you?
